@@ -36,10 +36,11 @@ public class Main {
             System.out.println("Месяц: "+month+"Денег: "+total);
         }
 //task9
+        int moneyInMonth=29000;
         int total2=0;
         for (int month2 = 1; month2 <= 12; month2++) {
-            total2=total2+29000/100;
-            total2=total2+29000;
+            total2=total2+total2/100;
+            total2=total2+moneyInMonth;
             System.out.println("Месяц: "+ month2 +"Денег: "+total2);
         }
 //task10
